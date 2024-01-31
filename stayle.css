@@ -1,0 +1,11 @@
+#header{
+    background-color: rgb(80, 129, 254);
+    border-bottom:pink 5px solid;
+}
+.navbar-brand a h1{
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar-brand a {
+    text-decoration: none;
+}
