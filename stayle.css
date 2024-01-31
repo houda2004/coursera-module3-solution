@@ -2,10 +2,38 @@
     background-color: rgb(80, 129, 254);
     border-bottom:pink 5px solid;
 }
+/*.navbar-brand{
+    float: left;
+}*/
+.navbar-header{
+    width: 100%;
+    position:relative;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
 .navbar-brand a h1{
+    
     color: azure;
     font-family: 'Times New Roman', Times, serif;
 }
 .navbar-brand a {
     text-decoration: none;
 }
+.sr-only{
+    display: none;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background-color: black;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 6px;
+}
+#button {
+    background-color: transparent;
+    border: none;
+} 
