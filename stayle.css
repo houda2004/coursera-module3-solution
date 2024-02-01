@@ -9,6 +9,12 @@
 .navbar-brand a {
     text-decoration: none;
 }
+a{
+    text-decoration: none;   
+}
+.texte-dec-none {
+    text-decoration: none;
+}
 /**
 ***
 ***
@@ -22,15 +28,15 @@
     align-items: center;
 }
 
-.sr-only{
+/*.sr-only{
     display: none;
-}
+}*/
 .navbar-toggle .icon-bar {
     display: block;
     width: 30px;
     height: 4px;
     border-radius: 3px;
-    background-color: black;
+    background-color: pink;
 }
 .navbar-toggle .icon-bar + .icon-bar {
     margin-top: 6px;
@@ -38,10 +44,86 @@
 #button {
     background-color: transparent;
     border: none;
+    display: none;
 } 
-@media (min-width: 769px) {
-    #button{
-        display: none;
-    }
+#bs-example-navbar-collapse-1 #list-nav a{
+    color:pink;
+ }   
+ #bs-example-navbar-collapse-1 #list-nav li{
+    border-bottom:pink 5px solid;
+    margin: 5px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }  
+
+@media (max-width: 769px) {
+ #button {
+  display: block;
+}
+    #bs-example-navbar-collapse-1 #list-nav{
+        text-align: center;
+        color:pink;
+     }     
 }
 /*----------------------end-------------------------------*/
+h1{
+    text-align: center;
+   }
+section  {
+float: left;
+width: 90%;
+margin: 40px;
+}
+.section {
+background-color:rgb(80, 129, 254) ;
+float: left;
+position: relative;
+border: 1px solid black;
+box-sizing: border-box;
+margin: 5px 0px;
+}
+
+.section-title {
+position: absolute;
+right: 0;
+text-align: center;
+width: 80px;
+border: 1px solid black;
+padding: 5px;
+}
+#chicken .section-title{
+background-color: pink;
+color:rgb(80, 129, 254);
+}
+#beef .section-title{
+background-color: pink;
+color: rgb(80, 129, 254);
+}
+#sushi .section-title{
+background-color: pink;
+color: rgb(80, 129, 254);
+}
+@media (max-width: 767px){
+.section{
+width: 100%;
+}
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 991px) {
+.section {
+width: 50%;
+}
+#sushi {
+width: 100%;
+}
+}
+
+/* Desktop view */
+@media (min-width: 992px) {
+.section {
+width: 33.33%;
+}
+}
+
+
