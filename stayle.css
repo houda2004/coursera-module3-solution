@@ -101,40 +101,6 @@ text-align: center;
 width: 80px;
 border: 1px solid black;
 padding: 5px;
-}
-#chicken .section-title{
 background-color: pink;
 color:rgb(80, 129, 254);
 }
-#beef .section-title{
-background-color: pink;
-color: rgb(80, 129, 254);
-}
-#sushi .section-title{
-background-color: pink;
-color: rgb(80, 129, 254);
-}
-/*@media (max-width: 767px){
-.section{
-width: 100%;
-}
-}*/
-
-/* Tablet view */
-/*@media (min-width: 768px) and (max-width: 991px) {
-.section {
-width: 50%;
-}
-#sushi {
-width: 100%;
-}
-}*/
-
-/* Desktop view */
-/*@media (min-width: 992px) {
-.section {
-width: 33.33%;
-}
-}*/
-
-
