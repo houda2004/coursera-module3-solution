@@ -66,21 +66,30 @@ a{
      }     
 }
 /*----------------------end-------------------------------*/
-h1{
+h1 {
     text-align: center;
-   }
-section  {
+}
+h1 a {
+    text-decoration: none;
+    color: pink;
+}
+#list {
+    margin: 20px;
+}
+/*section  {
 float: left;
 width: 90%;
 margin: 40px;
-}
+}*/
 .section {
+width: 10%;
 background-color:rgb(80, 129, 254) ;
 float: left;
 position: relative;
 border: 1px solid black;
 box-sizing: border-box;
-margin: 5px 0px;
+margin: 5px;
+height: 70px;
 }
 
 .section-title {
@@ -103,11 +112,11 @@ color: rgb(80, 129, 254);
 background-color: pink;
 color: rgb(80, 129, 254);
 }
-@media (max-width: 767px){
+/*@media (max-width: 767px){
 .section{
 width: 100%;
 }
-}
+}*/
 
 /* Tablet view */
 @media (min-width: 768px) and (max-width: 991px) {
